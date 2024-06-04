@@ -1,4 +1,10 @@
+import { Navbar } from "./components/Navbar";
+
 function page() {
-  return <div>page</div>;
+  return (
+    <>
+      <Navbar />
+    </>
+  );
 }
 export default page;
