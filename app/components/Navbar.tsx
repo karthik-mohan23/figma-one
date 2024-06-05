@@ -18,7 +18,7 @@ export function Navbar() {
 
         <ul className="hidden lg:flex pl-[74px] gap-x-14">
           {navLinks.map((item, index) => (
-            <li className="text-custom-gray-500 font-medium" key={index}>
+            <li className="text-custom-gray-500  font-medium" key={index}>
               {item.name}
             </li>
           ))}
