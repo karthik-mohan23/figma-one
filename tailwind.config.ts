@@ -15,6 +15,13 @@ const config: Config = {
         },
         "custom-blue": {
           500: "#4328EB",
+          700: "#0085FF",
+        },
+        "custom-green": {
+          500: "#00A424",
+        },
+        "custom-pink": {
+          500: "#EB2891",
         },
         "custom-white": {
           500: "#FFFFFF",

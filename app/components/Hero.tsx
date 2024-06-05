@@ -12,10 +12,10 @@ export function Hero() {
   return (
     <div className="pt-4 lg:pt-10">
       <div className="px-5 lg:px-[280px] ">
-        <h1 className="text-center text-[32px]  leading-10 font-medium text-custom-gray-700 lg:text-[64px] lg:leading-[72px] ">
+        <h1 className="text-center text-[32px]  leading-10 font-medium text-custom-gray-700 lg:text-[64px]  lg:leading-[72px] ">
           Start monitoring your website like a pro
         </h1>
-        <p className="text-center pt-6 text-custom-gray-500 lg:text-[18px]  lg:leading-7">
+        <p className="text-center pt-6 text-custom-gray-500 lg:text-lg  lg:leading-7">
           Get a birds eye view with our customizable dashboard. Stay on top of
           things! Revamp your work process with our game-changing feature. Boost
           productivity and efficiency!
@@ -52,7 +52,7 @@ export function Hero() {
             <p className="text-custom-white-500 text-center lg:text-[18px]">
               Trusted by these companies
             </p>
-            <div className="flex flex-col   items-center justify-center lg:flex-row  lg:justify-between lg:items-center  px-5  ">
+            <div className="flex flex-col   items-center justify-center lg:flex-row  lg:justify-between lg:items-center  px-5 lg:gap-8 ">
               <div className="flex items-center gap-8">
                 <Image src={Google} alt="google logo" />
                 <Image src={Slack} alt="slack logo" />
