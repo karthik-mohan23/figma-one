@@ -1,3 +1,4 @@
+import { Contact } from "./components/Contact";
 import { Faq } from "./components/Faq";
 import { Features } from "./components/Features";
 import { Hero } from "./components/Hero";
@@ -13,6 +14,7 @@ function page() {
         <Features />
         <Faq />
         <Pricing />
+        <Contact />
       </div>
     </>
   );
