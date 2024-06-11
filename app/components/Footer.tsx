@@ -123,8 +123,7 @@ export function Footer() {
       </div>
       <div className="flex items-center justify-center lg:justify-between">
         <p className="pt-14 text-center text-sm font-medium text-custom-gray-300 sm:pt-5">
-          © Copyright {new Date().getFullYear()}. Your Site. All rights
-          reserved.
+          © Copyright {new Date().getFullYear()}. All rights reserved.
         </p>
         <div className="hidden lg:flex items-center justify-center gap-x-14 pt-10">
           <Image src={Facebook} alt="Facebook" />
